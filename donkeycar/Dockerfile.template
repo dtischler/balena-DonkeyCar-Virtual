@@ -5,7 +5,6 @@ ARG venv_name=env
 ENV UDEV=1
 ENV READTHEDOCS=True
 ENV LD_LIBRARY_PATH=/opt/vc/lib
-EXPOSE 8887
 
 WORKDIR /usr/src/app
 
@@ -26,20 +25,6 @@ RUN pip3 install keras_applications==1.0.8 --no-deps
 RUN pip3 install keras_preprocessing==1.1.0 --no-deps
 RUN pip3 install -U --user six wheel mock
 RUN pip3 install gdown
-
-#RUN pip3 install --upgrade setuptools
-#RUN pip3 install pybind11
-#RUN pip3 install Cython
-#RUN pip3 install h5py==3.1.0
-#RUN pip3 install --upgrade wrapt
-#RUN pip3 install gast==0.4.0
-#RUN pip3 install absl-py astunparse
-#RUN pip3 install flatbuffers google_pasta
-#RUN pip3 install keras_preprocessing --no-deps
-#RUN pip3 install opt_einsum protobuf
-#RUN pip3 install six termcolor wheel
-#RUN pip3 install typing_extensions
-#RUN pip3 install gdown
 
 RUN gdown https://drive.google.com/uc?id=11mujzVaFqa7R1_lB7q0kVPW22Ol51MPg
 RUN pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl wrapt --upgrade --ignore-installed

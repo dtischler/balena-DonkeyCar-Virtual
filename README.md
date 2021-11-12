@@ -17,7 +17,7 @@ Also keep in mind that this Readme only covers the Balena-specific bits, but the
 
 Once the contianer is deployed on to your Pi, browse to http://<ip-address-of-your-pi>/drive.
 
-The DonkeyCar can be moved by using the mouse in the contol box. Click and hold, then dragging the mouse up for forward, back for reverse, and left and right to steer.
+The DonkeyCar can be moved by using the mouse in the control box. Click and hold, then dragging the mouse up for forward, back for reverse, and left and right to steer.
 
 Alternatively, on the keyboard, I,K,J,L will move forward, backward, left, and right. Individual keystrokes will nudge the value up or down respectively.
 
