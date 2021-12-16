@@ -2,7 +2,7 @@
 
 A [DonkeyCar](https://www.donkeycar.com) is a small autonomous vehicle project built on an RC Car chassis, that uses computer vision and machine learning techniques to convert the platform into a self-driving vehicle.  It uses a Raspberry Pi 3 or Jetson Nano, a camera, a motor driver, and of course the DonkeyCar application to perform this task.  There is also a "virtual" version that you can use to get started, prior to even building the physical version.  A "virtual" DonkeyCar looks rather like a video game, and it connects to a DonkeyCar Simulator just like the physical version, it can attempt to drive itself in the virtual world.
 
-![](https://www.donkeycar.com/uploads/7/8/1/7/7817903/donkey-car-graphic_orig.jpg)
+![](https://docs.donkeycar.com/assets/sim_screen_shot.png)
 
 To cover these different scenarios there are 4 main Repositories for the project:
 
@@ -11,7 +11,7 @@ To cover these different scenarios there are 4 main Repositories for the project
  - [DonkeyCar - Virtual Build, Raspberry Pi](https://github.com/dtischler/balena-DonkeyCar-Virtual) 
  - [DonkeyCar Simulator - Intel NUC / x86](https://github.com/dtischler/balena-DonkeyCar-Simulator)
 
-This Readme and Repo cover the **`Physical Build of a DonkeyCar using a Raspberry Pi 3`** version of the project.  You can refer to the other GitHub repos linked above, for other components or flavors of DonkeyCar.
+This Readme and Repo cover the **`Virtual Build of a DonkeyCar using a Raspberry Pi 3`** version of the project.  You can refer to the other GitHub repos linked above, for other components or flavors of DonkeyCar.
 
 Also note, the DonkeyCar project has their own [detailed documentation available](https://docs.donkeycar.com), that goes into more advanced topics and gives thorough descriptions of the architecture, machine learning and training scenarios, performance and tuning of models, and many more topics.  This Readme is simply intended to make it easy to get started, and once you have the core concepts down, be sure to refer to their documentation for more advanced guidance. 
 
@@ -44,7 +44,7 @@ More specifically:
 7. While developing, it is probably best to choose a Development variant of the operating system, and you can enter your WiFi credentials as well.
 8. At the bottom of the modal, click "Download balenaOS".
 9. After download completes, flash the file to your SD Card with Etcher.
-10. Insert the SD Card into the Raspberry Pi, plug into your USB Battery pack, and wait a few minutes for it to register itself with balenaCloud and come online.
+10. Insert the SD Card into the Raspberry Pi, plug in power, and wait a few minutes for it to register itself with balenaCloud and come online.
 11. After another moment, the Pi will begin downloading the pre-built DonkeyCar container, which will take some time.  Get a cup of tea while this occurs.
 
 Once the Pi has finished downloading the container, we have two quick settings we need to add in the balenaCloud dashboard.  After each entry, the Pi will reboot, so after you get the first entry in, it will take a moment before you enter the second variable we need to alter.  So, you'll just have to watch closely, but not a big deal.
@@ -54,6 +54,6 @@ First, click on Device Configuration on the left in the balenaCloud dashboard, a
 We're ready to drive now, so, it is time to move on to the next section!
 
 
-## Drive - TODO
+## Drive - TODO TODO TODO
  
 
