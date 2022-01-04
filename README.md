@@ -115,7 +115,7 @@ Knowing full well that training on the Pi is not ideal, we simply want to demons
 
 ## Drive Autonomously
 
-With the model now ready (hope you slept well), you can try to let the DonkeyCar now navigate the virtual racetrack autonously. Fair warning, mine did not drive very well with only 10 laps of data, so, be ready to watch it crash!
+With the model now ready (hope you slept well), you can try to let the DonkeyCar now navigate the virtual racetrack autonomously. Fair warning, mine did not drive very well with only 10 laps of data, so, be ready to watch it crash!
 
 - In balenaCloud dashboard, open up a terminal session to the DonkeyCar container.
 - Enter `cd mycar && python3 manage.py drive --model models/myawesomepilot.h5`
